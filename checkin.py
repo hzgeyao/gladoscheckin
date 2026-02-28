@@ -10,6 +10,7 @@ from datetime import datetime
 # ============================================================
 COOKIE = os.environ.get("GLADOS_COOKIE")
 
+
 CHECKIN_URL = "https://glados.cloud/api/user/checkin"
 STATUS_URL  = "https://glados.cloud/api/user/status"
 
