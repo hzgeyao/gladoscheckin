@@ -8,10 +8,7 @@ from datetime import datetime
 # 方式一：直接在此处填写 Cookie（本地运行时使用）
 # 方式二：设置环境变量 GLADOS_COOKIE（GitHub Actions 时使用）
 # ============================================================
-COOKIE = os.environ.get(
-    "GLADOS_COOKIE",
-     GLADOS_COOKIE
-)
+COOKIE = os.environ.get("GLADOS_COOKIE")
 
 CHECKIN_URL = "https://glados.cloud/api/user/checkin"
 STATUS_URL  = "https://glados.cloud/api/user/status"
